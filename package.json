@@ -1,14 +1,12 @@
 {
-  "homepage": "http://perea07.github.io/application-react-tasks",
   "name": "aplicacion-react-tareas",
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^17.0.2",

@@ -13,6 +13,7 @@ function ListaDeTareas() {
       tarea.texto = tarea.texto.trim();
       const tareasActualizadas = [tarea, ...tareas];
       setTareas(tareasActualizadas);
+      
     }
   };
 
@@ -47,7 +48,7 @@ function ListaDeTareas() {
                 eliminarTarea={eliminarTarea}
                 />
             )
-          };
+          }
         </div>
         </>
     );

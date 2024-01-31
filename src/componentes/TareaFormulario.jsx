@@ -7,7 +7,6 @@ function TareaFormulario(props) {
 
     const manejarCambio = e =>{
         setInput(e.target.value);
-        //console.log(e.target.value);
     }; 
     const manejarEnvio = e =>{
         e.preventDefault();
@@ -18,7 +17,6 @@ function TareaFormulario(props) {
             completada: false
         }
         props.onSubmit(tareaNueva);
-        //console.log(tareaNueva);
     };
 
     return (
